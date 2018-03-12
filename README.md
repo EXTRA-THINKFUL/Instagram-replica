@@ -1,5 +1,7 @@
 ### Instagram web app version replica
 
+play with it and learn
+https://www.instagram.com/?hl=en
 
 ### !important
 I am gonna work on backend with Node js. In order to connect front-end with back-end, you guys need to understand a concept,fetch,calling data from backend with javascript. This might be overwhelming, but this is super important to make our website to be dynamic. We can have a group session on Saturday for me to cover this and show you guys some examples.
@@ -49,6 +51,12 @@ Animate CSS: https://daneden.github.io/animate.css/
 ### Work Flow
 
 Invision(Design prototype tool) => HTML/CSS(mobile first) => Lucid Chart (JS application logic chart) => connect with Back-end
+
+
+### Design
+
+I sent over my sketch file(wireframe) via email, so please download sketch(you can download free trial version)
+https://www.sketchapp.com/ and start working on html/css
 
 
 ### Documentation
