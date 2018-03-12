@@ -57,6 +57,8 @@ We are gonna use Quip.com. I already sent out invitations to everyone.
 We will document every single group session we are gonna have and any helpful resources.  
 Click JavascriptNinjas to find HTML/CSS/JS
 
+https://javascriptninjas.quip.com/folder/javascriptninjas
+
 ### Communication
 
 We are gonna use a private slack channel
