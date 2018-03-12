@@ -1,4 +1,4 @@
-### Tinder like web app to connect entrepreneurs with developers
+### Instagram web app version replica
 
 
 ### !important
