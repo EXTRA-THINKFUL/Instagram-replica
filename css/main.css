@@ -1,0 +1,313 @@
+:root{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:helvetica;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  font-size: 15px;
+
+}
+
+
+/* Header starts here */
+.top-header{
+  position:fixed;
+  display:flex;
+  flex-direction: row;
+  width: 100vw;
+  height:107px;
+  border-bottom: 0.01em solid #EDEEEE;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  z-index: 1;
+
+}
+
+.top-header > section {
+
+  width: 642px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.top-header h1 {
+  font-family:'Pacifico', cursive;
+  font-size: 2em;
+  color: #125688;
+}
+
+.top-header nav {
+  flex: 1;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.top-header a {
+  text-decoration: none;
+  color:#125688;
+  cursor:pointer;
+  padding:0 0.5em;
+  font-size: 16px;
+}
+
+.top-header a:hover{
+  color:lightgrey;
+  text-decoration: none;
+}
+/* main header ends */
+
+/* main containers */
+
+/* style for links */
+a.link-text {
+  color: #125688;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* style for non link, informational text */
+.info-text {
+ color: #A5A7AA;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+/* main flex for all the containers */
+main {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:642px;
+  margin: auto;
+  padding: 0;
+
+}
+
+/* individual container */
+.insta-box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 642px;
+  height: 860px;
+  border: 0.01em solid #EDEEEE;
+  margin-bottom: 50px;
+  background-color: #FFFFFF;
+  padding: 20px;
+
+}
+
+ .insta-box:nth-child(1) {
+  margin-top: 150px;
+}
+
+
+/* container header */
+.insta-box_header {
+  margin: 0;
+  height: 60px;
+  width: 642px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+}
+
+/* profile pic icon and user info*/
+.profile-picture {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+
+}
+
+.fa-circle {
+  color: #EDEEEE;
+  font-size: 30px;
+
+}
+
+
+.user-info {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 12px;
+  overflow: hidden;
+}
+
+.time {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.time li {
+  justify-content: flex-end;
+}
+
+
+/* main image in container */
+
+.main-image {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  border: 0.01em solid #EDEEEE;
+
+
+}
+
+.main-image div {
+
+  height: 642px;
+  width: 642px;
+  justify-content: center;
+  display: flex;
+  background-color: #D8D8D8;
+
+}
+
+/* main flex container for comments and social */
+
+.interactions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 642px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+
+}
+
+
+div.social-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 642px;
+  padding-bottom: 10px;
+}
+
+div.social-text p{
+  padding: 0;
+  margin: 0;
+}
+
+.comment-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 0.01em solid #EDEEEE;
+  text-align: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+
+
+}
+.more-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+
+}
+
+/* comment typing area */
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    overflow: auto;
+    height: 20px;
+
+}
+
+.fa-heart {
+  color: #A5A7AA;
+  font-size: 25px;
+
+}
+.fa-ellipsis-h {
+  color: #A5A7AA;
+}
+ /* end insta box containers */
+
+
+
+/*footer of whole page */
+
+footer {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 80%;
+
+}
+
+/* load more bubble */
+
+div.load-more{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #3B8EDE;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-bottom: 80px;
+}
+.load-more a{
+  text-decoration: none;
+  color: #D8D8D8;
+}
+
+/* footer navigation */
+
+footer ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  width: 627px;
+  list-style: none;
+}
+
+footer ul li {
+  justify-content: space-between;
+  margin: auto;
+}
