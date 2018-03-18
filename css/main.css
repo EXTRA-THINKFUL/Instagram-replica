@@ -81,7 +81,7 @@ a.link-text {
 /* style for non link, informational text */
 .info-text {
  color: #A5A7AA;
- font-size: 15px;
+ font-size: 12px;
  font-weight: bold;
 }
 
@@ -111,8 +111,6 @@ main {
   border: 0.01em solid #EDEEEE;
   margin-bottom: 50px;
   background-color: #FFFFFF;
-  padding: 20px;
-
 }
 
  .insta-box:nth-child(1) {
@@ -122,24 +120,52 @@ main {
 
 /* container header */
 .insta-box_header {
-  margin: 0;
   height: 60px;
-  width: 642px;
-  padding-bottom: 20px;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding:0 20px;
+}
+
+.insta-box_header > div{
+  flex:1;
+  height:100%;
+}
+
+.insta-box-header-user{
+  display:flex;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  display: flex;
+}
+.insta-box-header-user > div{
+  padding:0 5px;
+}
+.insta-box-header-user ul{
+  margin:0;
+}
+
+.insta-box-header-time{
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.insta-box-header-time p{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
 }
 
 /* profile pic icon and user info*/
-.profile-picture {
+/* .profile-picture {
   display: flex;
   align-items: center;
-  margin-left: 20px;
 
-
-}
+} */
 
 .fa-circle {
   color: #EDEEEE;
@@ -154,7 +180,6 @@ main {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: 12px;
   overflow: hidden;
 }
 
