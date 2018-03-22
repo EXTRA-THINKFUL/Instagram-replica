@@ -1,0 +1,64 @@
+:root {
+  margin: 0;
+  padding: 0s;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/* header navigation settings */
+
+/*flex parent */
+header {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height:107px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0.01em solid #EDEEEE;
+  z-index:1;
+  top: 0;
+
+
+
+
+}
+/* flex child of header and flex parent of div and a */
+header nav {
+display: flex;
+width: 975px;
+align-items: center;
+text-align: center;
+justify-content: center;
+flex-direction: row;
+
+
+
+
+}
+/* flex children*/
+nav div {
+  font-family:'Pacifico', cursive;
+  color: #125688;
+  font-size: 25px;
+  width: 100%;
+}
+
+nav a {
+  font-size: 16px;
+  justify-content: flex-end;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  color: #125688;
+
+}
+/* end header nav area */
