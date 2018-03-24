@@ -1,174 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tinder</title>
+  <title>Instagram</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
-  <!-- instagram placeholder font -->
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-
-  <!-- font awesome icons -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-
-
-
+  <link rel="stylesheet" href="/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
 </head>
-
 <body>
-  <!-- header starts here -->
-
-  <header class='top-header'>
-  <section>
-    <div>
-      <h1>Instagram</h1>
+  <!--header starts here-->
+  <header class="header">
+    <div class="headbox">
+      <p class="headtext_one">Instagram</p>
+      <p class="headtext_two">Find it for free on the Windows Store</p>
     </div>
 
-    <nav>
-      <a href="#">owner</a>
-      <a href="#">Log out</a>
-    </nav>
-</section>
+    <div class="dllinkbox">
+      <button class="getbutton">GET</button>
+    </div>
   </header>
-<!-- header ends -->
-<main>
-
-<!-- instagram box container -->
-
-<section class='insta-box'>
-
-<!-- header of container -->
-
-  <header class='insta-box_header'>
-    <!-- first ele: pic -->
-    <div class='insta-box-header-user'>
-      <div>
-        <i class="far fa-circle fa-lg profile-picture"></i>
+  <main>
+    <article>
+  <!--  <div class="slideshow">
+  </div>     -->
+      <div class="signup">
+        <h1>Instagram</h1>
+        <form action="/signup" method="post" class="signupform">
+          <h2>Sign up to see photos and videos from your friends.</h2>
+          <button class="formbutton" type="submit" name="facebook">Log in with Facebook</button>
+          <div class="orbox">or</div>
+          <input type="text" class="mobile-email" placeholder="Mobile Number or Email" name="mobile-email" id="mobile-email">
+          <input type="text" class="fullname" placeholder="Full Name" name="fullname" id="fullname">
+          <input type="text" class="username" placeholder="Username" name="username" id="username">
+          <input type="text" class="password" placeholder="Password" name="password" id="password">
+          <button class="formbutton" type="submit" name="submit">Sign up</button>
+          <p class="formfoot">
+            By signing up, you agree to our
+            <a href="">Terms</a>
+            &
+            <a href="">Privacy Policy</a>
+            .
+          </p>
+        </form>
       </div>
-      <ul class='user-info'>
-        <li><a href='#' class='link-text'>user</a></li>
-        <li class='info-text'>place</li>
+      <div class="login">
+        <p>Have an account? <a href="">Log In</a></p>
+      </div>
+      <div class="getapp">
+        <p>Get the app.</p>
+        <div class="applinks">
+          <img class="applink" src="/images/apple.png" alt="app store">
+          <img class="applink" src="/images/googleplay.png" alt="google play">
+          <img class="applink" src="/images/microsoft.png" alt="microsoft">
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div class="footerbox">
+      <ul>
+        <li><a href='https://www.instagram.com/about/us/' class='link-text'>about us</a></li>
+        <li><a href='https://help.instagram.com/' class='link-text'>support</a></li>
+        <li><a href='http://blog.instagram.com/' class='link-text'>blog</a></li>
+        <li><a href='https://instagram-press.com/' class='link-text'>press</a></li>
+        <li><a href='https://www.instagram.com/developer/' class='link-text'>api</a></li>
+        <li><a href='https://www.instagram.com/about/jobs/' class='link-text'>jobs</a></li>
+        <li><a href='https://www.instagram.com/legal/privacy/' class='link-text'>privacy</a></li>
+        <li><a href='https://www.instagram.com/legal/terms/' class='link-text'>terms</a></li>
+        <li><a href='https://www.instagram.com/explore/locations/' class='link-text'>directory</a></li>
+        <li><a href='https://www.instagram.com/directory/profiles/' class='link-text'>profiles</a></li>
+        <li><a href='https://www.instagram.com/directory/hashtags/' class='link-text'>hashtags</a></li>
+        <li>language</a></li>
       </ul>
-    </div>
-    <!-- time -->
-    <div class='insta-box-header-time'>
-        2 hours
-    </div>
-  </header>
-
-<!-- end header of container -->
-
-<!-- main image in container -->
-  <div class='main-image'><div></div></div>
-
-  <!-- end main image in container -->
-
-  <!--comments and likes -->
-
-  <div class='interactions'>
-
-    <div class="social-text">
-      <p><a href='#' class='link-text'>nickname<a>, <a href='#' class='link-text'>nickname<a></p>
-      <p><a href='#' class='link-text'>visitor<a> comment</p>
-
+      <span class="copyright">&copy; 2018 Instagram</span>
     </div>
 
-    <div class='comment-area'>
-
-      <form>
-        <i class="far fa-heart"></i>
-        <textarea placeholder='Add a comment   ...'></textarea>
-      </form>
-
-      <div class='more-options'>
-        <i class="fas fa-ellipsis-h"></i>
-      </div>
-
-</section>
-<!-- end comments and likes -->
-
-<!--  next instagram box container -->
-
-<section class='insta-box'>
-
-<!-- header of container -->
-
-<header class='insta-box_header'>
-  <div><i class="far fa-circle fa-lg profile-picture"></i></div>
-  <ul class='user-info'>
-    <li><a href='#' class='link-text'>user</a></li>
-    <li class='info-text'>place</li>
-  </ul>
-  <ul class='time info-text'>
-    <li>2 hours</li>
-  </ul>
-</header>
-
-<!-- end header of container -->
-
-<!-- main image in container -->
-<div class='main-image'><div></div></div>
-
-<!-- end main image in container -->
-
-<!--comments and likes -->
-
-<div class='interactions'>
-
-  <div class="social-text">
-    <p><a href='#' class='link-text'>nickname<a>, <a href='#' class='link-text'>nickname<a></p>
-    <p><a href='#' class='link-text'>visitor<a> comment</p>
-
-  </div>
-
-  <div class='comment-area'>
-
-    <form>
-      <i class="far fa-heart"></i>
-      <textarea placeholder='Add a comment   ...'></textarea>
-    </form>
-
-    <div class='more-options'>
-      <i class="fas fa-ellipsis-h"></i>
-    </div>
-
-</section>
-
-</main>
-
-<footer>
-
-<div class='load-more'>
-  <a href='#'>load more</a>
-</div>
-
-<ul>
-  <li><a href='#' class='link-text'>about us</a></li>
-  <li><a href='#' class='link-text'>support</a></li>
-  <li><a href='#' class='link-text'>blog</a></li>
-  <li><a href='#' class='link-text'>press</a></li>
-  <li><a href='#' class='link-text'>api</a></li>
-  <li><a href='#' class='link-text'>jobs</a></li>
-  <li><a href='#' class='link-text'>privacy</a></li>
-  <li><a href='#' class='link-text'>terms</a></li>
-  <li><a href='#' class='link-text'>language</a></li>
-</ul>
 
 
-</footer>
+  </footer>
 
-  <!-- using bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="js/index.js"></script>
+
+
+
 </body>
-
-
-
 </html>
