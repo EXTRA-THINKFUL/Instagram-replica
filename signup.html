@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Instagram</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
 </head>
 <body>
@@ -23,19 +23,19 @@
   </header>
   <main>
     <article>
-  <!--  <div class="slideshow">
-  </div>     -->
+  <!--  <div class="slideshow"> -->
+  </div>     
       <div class="signup">
         <h1>Instagram</h1>
-        <form action="/signup" method="post" class="signupform">
+        <form action="/signup" method="post" class="signupform" onSubmit="return validateSignupForm()">
           <h2>Sign up to see photos and videos from your friends.</h2>
-          <button class="formbutton" type="submit" name="facebook">Log in with Facebook</button>
+          <input class="formbutton" type="submit" name="facebook" value="Log in with Facebook">
           <div class="orbox">or</div>
-          <input type="text" class="mobile-email" placeholder="Mobile Number or Email" name="mobile-email" id="mobile-email">
-          <input type="text" class="fullname" placeholder="Full Name" name="fullname" id="fullname">
-          <input type="text" class="username" placeholder="Username" name="username" id="username">
-          <input type="text" class="password" placeholder="Password" name="password" id="password">
-          <button class="formbutton" type="submit" name="submit">Sign up</button>
+          <input type="text" class="mobile-email" placeholder="Mobile Number or Email" name="mobile-email" id="mobile-email" required>
+          <input type="text" class="fullname" placeholder="Full Name" name="fullname" id="fullname" required>
+          <input type="text" class="username" placeholder="Username" name="username" id="username" required>
+          <input type="password" class="password" placeholder="Password" name="password" id="password" required>
+          <input class="formbutton" type="submit" name="submit" value="Sign up">
           <p class="formfoot">
             By signing up, you agree to our
             <a href="">Terms</a>
@@ -51,9 +51,9 @@
       <div class="getapp">
         <p>Get the app.</p>
         <div class="applinks">
-          <img class="applink" src="/images/apple.png" alt="app store">
-          <img class="applink" src="/images/googleplay.png" alt="google play">
-          <img class="applink" src="/images/microsoft.png" alt="microsoft">
+          <img class="applink" src="images/apple.png" alt="app store">
+          <img class="applink" src="images/googleplay.png" alt="google play">
+          <img class="applink" src="images/microsoft.png" alt="microsoft">
         </div>
       </div>
     </article>
@@ -83,6 +83,6 @@
 
 
 
-
+	<script src="js/signupValidation.js"></script>
 </body>
 </html>
