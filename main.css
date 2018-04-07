@@ -88,6 +88,19 @@ div.signup {
   background-color: #FFFFFF;
 }
 
+div.signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #E7E7E7;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 12vh;
+  width: 340px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
 .applinks {
   display: flex;
   flex-direction: row;
@@ -110,6 +123,8 @@ div.signup {
   color: #FFFFFF;
   border: 1px solid #3897f0;
   border-radius: 3px;
+  font-size: 1em;
+  height: 26px;
 }
 
 form {
